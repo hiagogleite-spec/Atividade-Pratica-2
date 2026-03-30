@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#topo {
+    background-color: #0a1f44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    background-color: #1c3d73;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.container {
+padding: 20px;
+margin: 20px;
+}
+
+.texto {
+    margin-bottom: 20px;
+}
+
+.formulario {
+    border: 1px solid #cccc;
+    padding: 20px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    padding: 10px;
+    border: none;
+    background-color: #1c3d73;
+    color: white;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #16325c;
+}
